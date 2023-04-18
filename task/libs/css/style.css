@@ -1,0 +1,41 @@
+body {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+table.listTable,
+table.listTable td,
+table.listTable th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table.listTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.listTable th,
+table.listTable td {
+  padding: 15px;
+}
+
+td.resTd #divResults {
+  padding: 5px;
+  height: 200px;
+}
+
+table.resTable {
+  margin: auto;
+  width: 50%;
+}
+
+h3 {
+  color: blue;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}

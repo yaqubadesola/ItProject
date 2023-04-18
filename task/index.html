@@ -1,0 +1,125 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>TASK PROJEC</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON example">
+		<meta name="author" content="Task Project">
+		<link rel="stylesheet" href="./libs/css/style.css">
+	</head>
+
+	<body>
+		<table class="listTable">
+			<tr>
+			  <th>API Name</th>
+			  <th>API Description</th>
+			  <th>Action</th>
+			</tr>
+			<!-- First API Call -->
+			<tr>
+			  <td title="This API returns Address of any inputed Longitude and Latidue">1. &lt;Address&gt;</td>
+			  <td>
+				<input type="text" name="lat" title="Longitude" placeholder="Enter Latitude" value="52.358" id="selLat">
+				<input type="text" name="lng" title="Latitude" placeholder="Enter Longitude" value="4.881" id="selLng"> 	
+			  </td>
+			  <td><button id="btnAddress">Run</button> </td>
+			</tr>
+			<!-- Second API Call -->
+			<tr>
+				<td title="This API returns timezone of any inputed Longitude and Latidue">2. &lt;Timezone&gt; </td>
+				<td>
+					<input type="text" name="lat" title="Longitude"	placeholder="Enter Latitude" value="47.1" id="selLat">
+					<input type="text" name="lng" 	title="Latitude" placeholder="Enter Longitude" value="10.2" id="selLng"> 	 
+				</td>
+				<td><button id="btnTimezone">Run</button> </td>
+			</tr>
+			<!-- Third API Call -->
+			<tr>
+				<td>1. </td>
+				<td>
+				  <select id="selCountry">
+					  <option value="GB">Great Britain</option>
+					  <option value="FR">France</option>
+					  <option value="DE">Germany</option>
+					  <option value="US">USA</option>
+				  </select>
+		  
+				  <select id="selLanguage">
+					  <option value="en">English</option>
+					  <option value="fr">Francais</option>
+					  <option value="de">Deutsche</option>
+				  </select>
+				</td>
+				<td><button id="btnRun">Run</button> </td>
+			</tr>
+			<tr>
+			  <td colspan="3" class="resTd">
+				<div id="divResults">
+			
+					<table class="resTable">
+		
+						<!-- <tr>
+							<td align="right">
+								House Number: 
+							</td>
+							<td id="txtHouseNumber">
+								
+							</td>
+							<td align="right">
+								Country Code: 
+							</td>
+							<td id="txtCountryCode">
+							</td>
+		
+						</tr>
+		
+						<tr>
+							<td align="right">
+								Street: 
+							</td>
+							<td id="txtStreet">
+								
+							</td>
+							<td align="right">
+								Locality: 
+							</td>
+							<td id="txtLocality">
+								
+							</td>
+		
+						</tr>
+						<tr>
+							<td align="right">
+								Latitude: 
+							</td>
+							<td id="txtLat">
+								
+							</td>
+							<td align="right">
+								Longitude: 
+							</td>
+							<td id="txtLng">
+								
+							</td>
+						</tr>
+		 -->
+		
+					</table>
+				</div>
+		
+			  </td>
+			</tr>
+			
+		  </table>
+
+		
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/script.js"></script>
+
+	</body>
+
+</html>
